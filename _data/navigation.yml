@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: CV
+  link: /cv.html
+- name: Research
+  link: /research.html
+- name: Fieldwork
+  link: /fieldwork.html
+- name: Outreach
+  link: /outreach.html
