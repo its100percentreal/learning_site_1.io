@@ -1,7 +1,7 @@
 ---
-
+layout: default
+title: Home
 ---
-{% include navigation.html %}
 
 ## Welcome to GitHub Pages
 

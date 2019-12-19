@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss",
+		"_sass/variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"@import \"variables\";\n\n.current {\n  color: green;\n}\n\nbody {\n    background-color: #fff;\n    padding: 50px;\n    font: 14px/1.5;\n    color: 000;\n    font-weight: 400;\n}\n\nnav {\n  color: $header-heading-color;\n  text-align: center;\n  color: white;\n  background-color: $header-bg-color;\n  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);\n}\n\n\n.page-header {\n  color: $header-heading-color;\n  text-align: center;\n  background-color: $header-bg-color;\n  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);\n}\n",
+		"\n// Headers\n$header-heading-color: #fff !default;\n$header-bg-color: #003399 !default;\n$header-bg-color-secondary: #3399CC !default;\n\n// Text\n$section-headings-color: #003399 !default;\n$body-text-color: #000 !default;\n$body-link-color: #0000FF !default;\n$blockquote-text-color: #000 !default;\n"
+	],
+	"names": [],
+	"mappings": "ACEA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb;;AAED,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,IAAI,EACtB,OAAO,EAAE,IAAI,EACb,IAAI,EAAE,QAAQ,EACd,KAAK,EAAE,GAAG,EACV,WAAW,EAAE,GAAG,GACnB;;AAED,AAAA,GAAG,CAAC,EACF,KAAK,ECbgB,IAAI,EDczB,UAAU,EAAE,MAAM,EAClB,KAAK,EAAE,KAAK,EACZ,gBAAgB,ECfA,OAAO,EDgBvB,gBAAgB,EAAE,yCAAqE,GACxF;;AAGD,AAAA,YAAY,CAAC,EACX,KAAK,ECtBgB,IAAI,EDuBzB,UAAU,EAAE,MAAM,EAClB,gBAAgB,ECvBA,OAAO,EDwBvB,gBAAgB,EAAE,yCAAqE,GACxF"
+}
